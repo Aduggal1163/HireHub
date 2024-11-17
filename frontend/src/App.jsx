@@ -53,7 +53,7 @@ function App() {
           <Route path='/job/me' element={<MyJob/>}/>
           <Route path="/job/:id" element={<JobDetails />} />
           <Route path="/application/:id" element={<Application />} />
-          <Route path="/application/me" element={<MyApplication />} />
+          <Route path="/applications/me" element={<MyApplication />} />
           <Route path='*' element={<NotFound/>}/>
         </Routes>
         <Footer/>
